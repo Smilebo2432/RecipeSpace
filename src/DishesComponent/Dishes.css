@@ -1,0 +1,42 @@
+.DishesLayout{
+    overflow-y: auto;
+    max-height: 88vh;
+    width:100%;
+}
+
+.card-background{
+    padding:10px 30px;
+    margin:20px 40px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.3);
+    background: linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
+    border-radius:10px;
+    height:200px;
+}
+.card-background:hover{
+    transform: scale(1.050);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    border:1.5px solid #F84F43;
+}
+.card-content{
+    display:flex;
+    align-items: center;
+    height:180px;
+}
+.fa-heart{
+    font-size: 36px;
+    color:#F84F43;
+    cursor: pointer;
+}
+
+.card-image {
+    margin: 10px 20px;
+    object-fit: cover;
+    width: 80%;  
+    height: 160px; 
+    border-radius: 10px; 
+    display: block;
+    overflow: hidden;
+    filter: brightness(80%);
+    border: 1px solid rgba(0, 0, 0, 0.618); 
+}

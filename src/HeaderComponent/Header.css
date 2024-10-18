@@ -1,0 +1,23 @@
+.header-rightpane{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navigationButton{
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.navigationButton.active{
+    border-radius: 10px;
+    background: radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.455) 0%, rgba(181, 205, 154, 0.582) 90%);
+}
+.navigationButton:hover{
+    border-radius: 10px;
+    background: radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.254) 0%, rgba(181, 205, 154, 0.306) 90%);
+}
+.headerLayout{
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    border-bottom:1px solid #424242;
+    background:linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
+}
