@@ -1,6 +1,6 @@
 const Config = () => {
     const config = {};
-    config.backendAPI = "http://localhost:5000"
+    config.backendAPI = "https://codingproject2024.pythonanywhere.com"
     return config;
 }
 

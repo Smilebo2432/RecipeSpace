@@ -36,12 +36,12 @@ const Filters = () => {
     const removeFilter = (filter, item) => {
         setFilters(prevFilters => ({
             ...prevFilters,
-            [filter]: [...prevFilters[filter], item] // Add back to filters
+            [filter]: [...prevFilters[filter], item] 
         }));
 
         setFiltersAdded(prevFiltersAdded => ({
             ...prevFiltersAdded,
-            [filter]: prevFiltersAdded[filter].filter(i => i !== item) // Remove from added filters
+            [filter]: prevFiltersAdded[filter].filter(i => i !== item) 
         }));
     };
 
@@ -53,6 +53,25 @@ const Filters = () => {
         <div className="commonBackground">
             <div className="filtersSection">
                 <div className="row filtersSectionContent">
+                <div className="col-md-4">
+                        <Select
+                            options={allergyOptions}
+                            onChange={(selectedOption) => {
+                                if (selectedOption) {
+                                    addFilter('allergies', selectedOption.value);
+                                }
+                            }}
+                            value={null}
+                            placeholder="Allergens to be Avoided"
+                        />
+                        <div className="selected-filter-div">
+                            {filtersAdded.allergies.map((item, index) => (
+                                <div key={index} className='selected-filter' onClick={() => removeFilter('allergies', item)}>
+                                    {item } <FontAwesomeIcon icon={faTimes} />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                     <div className='col-md-4'>
                         <Select
                             options={vegOptions}
@@ -64,29 +83,15 @@ const Filters = () => {
                             value={null}
                             placeholder="Select Veg or Non-Veg"                        
                         />
-                        {filtersAdded.vegFilter.map((item, index) => (
-                            <div key={index} className='selected-filter' onClick={() => removeFilter('vegFilter', item)}>
-                                {item + " selected"} <FontAwesomeIcon icon={faTimes} />
-                            </div>
-                        ))}
+                        <div className="selected-filter-div">
+                            {filtersAdded.vegFilter.map((item, index) => (
+                                <div key={index} className='selected-filter' onClick={() => removeFilter('vegFilter', item)}>
+                                    {item} <FontAwesomeIcon icon={faTimes} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                    <div className="col-md-4">
-                        <Select
-                            options={allergyOptions}
-                            onChange={(selectedOption) => {
-                                if (selectedOption) {
-                                    addFilter('allergies', selectedOption.value);
-                                }
-                            }}
-                            value={null}
-                            placeholder="Select Allergies"
-                        />
-                        {filtersAdded.allergies.map((item, index) => (
-                            <div key={index} className='selected-filter' onClick={() => removeFilter('allergies', item)}>
-                                {item + " selected"} <FontAwesomeIcon icon={faTimes} />
-                            </div>
-                        ))}
-                    </div>
+                    
                     <div className="col-md-4">
                         <Select
                             options={spiceOptions}
@@ -98,11 +103,13 @@ const Filters = () => {
                             value={null}
                             placeholder="Select Spice Level"
                         />
-                        {filtersAdded.spiceLevel.map((item, index) => (
-                            <div key={index} className='selected-filter' onClick={() => removeFilter('spiceLevel', item)}>
-                                {item + " selected"} <FontAwesomeIcon icon={faTimes} />
-                            </div>
-                        ))}
+                        <div className="selected-filter-div">
+                            {filtersAdded.spiceLevel.map((item, index) => (
+                                <div key={index} className='selected-filter' onClick={() => removeFilter('spiceLevel', item)}>
+                                    {item } <FontAwesomeIcon icon={faTimes} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>            

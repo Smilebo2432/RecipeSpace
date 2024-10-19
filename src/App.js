@@ -10,6 +10,7 @@ import SignIn from './SignInComponent/SignIn';
 import SignUp from './SignUpComponent/SignUp';
 import Favorites from './FavoritesComponent/Favorites';
 import Error from './ErrorComponent/Error';
+import Recipe from './RecipeComponent/Recipe';
 function App() {
   return (
     <BrowserRouter>
@@ -36,6 +37,7 @@ const AppContent = () => {
             <Route path='/myprofile' element={<MyProfile />} />
             <Route path='/dishes' element={<Dishes />} />
             <Route path='/favorites' element={<Favorites/>}/>
+            <Route path='/recipe' element={<Recipe/>}/>
           </>
         ) : (
           <Route path='*' element={<Navigate to='/signin' />} /> 

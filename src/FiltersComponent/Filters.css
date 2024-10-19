@@ -2,12 +2,17 @@
     padding:2rem;
     margin:20px;
     background:linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
-    border-radius:10px
+    border-radius:10px;
 }
 .commonBackground{
     padding:20px;
-    max-height: 88vh;
+    height: 88vh;
+    overflow: auto;
     width:100%;
+}
+.selected-filter-div{
+    display: flex;
+    flex-wrap: wrap;
 }
 .search-recipes{
     background: linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
@@ -25,12 +30,12 @@
 .selected-filter{
     font-size:12px;
     padding:3px 10px;
-    margin:5px;
+    margin:3px;
     background:radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.455) 0%, rgba(181, 205, 154, 0.582) 90%);
     border-radius:15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    column-gap: 5px;
 }
 .selected-filter:hover{
     background: radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.254) 0%, rgba(181, 205, 154, 0.306) 90%);

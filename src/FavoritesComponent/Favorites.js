@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Service from '../Service';
 import dishes from '../DishesJSON'; // Import the dishes array
 import './Favorites.css';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { toast } from 'react-toastify';
@@ -47,20 +47,27 @@ const Favorites = () => {
 
     return (
         <div className='favoritesLayout'>
-            <div className='row'>
+            {favoriteDishes?.length === 0 ? 
+            ( <div className='filtersSection'> 
+                    <h4 style={{textAlign:'center'}}> No Favorite Dishes yet ... </h4>
+              </div>) : (
+                <div className='row'>
+            
                 {
                     favoriteDishes.map((item) => (
                         <div className='col-md-4' key={item.name}>
                             <div className='favoriteDishCard'>
-                                <img src={item.imgLink} alt={item.name} className='card-image' />
+                                <img src={item.imgLink} alt={item.name} className='card-image' onClick={()=>{navigate('/recipe',{state:item})}}/>
                                 <h3>{item.name}</h3>
                                 <p>{item.dietaryPreference}</p>
-                                <FontAwesomeIcon icon={faTrash} onClick={()=>removeFavorite(item)}/>
+                                <FontAwesomeIcon className="fa-trash" icon={faTrash} onClick={()=>removeFavorite(item)}/>
                             </div>
                         </div>
                     ))
                 }
             </div>
+            )}
+            
         </div>
     );
 }

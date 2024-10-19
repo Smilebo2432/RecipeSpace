@@ -41,7 +41,7 @@ const Service = () => {
         return makeRequest(url,'POST',{user_id,dish_name});
     }
     const getFavorites = async (user_id) => {
-        const url = Config().backendAPI + '/favorites?'+'user_id='+user_id ;
+        const url = Config().backendAPI + '/favorites?user_id='+user_id ;
         return makeRequest(url,'GET')
     }
     const removeDishFromFavorites = async (user_id, dish_name) => {
@@ -53,7 +53,7 @@ const Service = () => {
         return makeRequest(url,'PUT',user)
     }
     const fetchUser = (user_id) => {
-        const  url = Config().backendAPI+'/user?'+"user_id="+user_id;
+        const  url = Config().backendAPI+'/user?user_id='+user_id;
         return makeRequest(url,'GET')
     }
     const createUser = (userId) => {

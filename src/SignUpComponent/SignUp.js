@@ -5,18 +5,18 @@ import Service from '../Service';
 import { toast } from 'react-toastify';
 const SignUp = () => {
     const navigate = useNavigate()
-    const [user,setUser]=useState({
+    const user={
         username:"",
         password:"",
         confirmPassword:''
-    })
+    }
     const changeValue = (field, e) => {
         user[field] = e.target.value;
     }
     const [showMsg,setShowMsg] = useState(false);
     const signUp = () => {
         setShowMsg(false)
-        if(user.password != user.confirmPassword){
+        if(user.password !== user.confirmPassword){
             setShowMsg(true)
             return;
         }

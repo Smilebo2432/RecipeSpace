@@ -7,6 +7,7 @@ import dishes from '../DishesJSON';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { faArrowLeft, faPepperHot } from '@fortawesome/free-solid-svg-icons';
 
 const Dishes = () => {
     const [hearts, setHearts] = useState([]); // Initialize hearts array
@@ -91,20 +92,43 @@ const Dishes = () => {
     return (
         <div className='DishesLayout'>
             {isLoading && (<div className='loader-container'> <div className='loader'> </div></div>)}
+            <div className='dishes-top-section'>
+                <div style={{display:'flex', alignItems:'center'}}>
+                    <FontAwesomeIcon icon={faArrowLeft} className="fa-arrow-left" onClick={()=>{navigate(-1)}}/> &nbsp; <b>The recipes are being shown based on the selected criteria</b>
+                </div>
+                
+                <div className='row'>
+                    <div className='col-md-3'>
+                        Dietary Preference: &nbsp;
+                        {selectedFilters?.vegFilter?.map((value,id) => (<span>{value}{id<selectedFilters.vegFilter.length - 1?'/ ':''} </span> )) || <span> Veg / Non-Veg </span>}
+                    </div>
+                    <div className='col-md-6'>
+                        Doesn't contain: &nbsp;
+                        {selectedFilters?.allergies?.map((value,id) => ( <span>{value} {id<selectedFilters.allergies.length - 1 ?', ':''}</span>))}
+                    </div>
+                    <div className='col-md-3'>
+                        spice level: &nbsp;
+                        {selectedFilters?.spiceLevel?.map((value,id) => (<span>{value}{id<selectedFilters.spiceLevel.length - 1 ?', ':''}</span> ))}
+                    </div>
+                </div>
+            </div>
             {Array.from({ length: dishesFiltered.length }, (_, idx) => (
-                <div className="card-background" key={idx}>
+                <div className="card-background" key={idx} >
                     <div className='row'>
                         <div className='col-md-4'>
                             <img className='card-image' src={dishesFiltered[idx].imgLink} alt={dishesFiltered[idx].name} />
                         </div>
-                        <div className='col-md-8'>
+                        <div className='col-md-8' >
                             <div className='row card-content'>
-                                <div className='col-md-9'>
+                                <div className='col-md-7' onClick={()=>{navigate('/recipe',{state:dishesFiltered[idx]})}}>
                                     <h3>{dishesFiltered[idx].name}</h3>
                                     {dishesFiltered[idx].description}
                                 </div>
                                 <div className='col-md-2'>
                                     {dishesFiltered[idx].dietaryPreference}
+                                </div>
+                                <div className='col-md-2'>
+                                    {dishesFiltered[idx].spiceLevel === 'High' ? <span>{Array.from({length:3},()=>(<FontAwesomeIcon className='pepper-hot' icon={faPepperHot}/>))} </span>  : dishesFiltered[idx].spiceLevel === 'Medium'? <span>{Array.from({length:2},()=>(<FontAwesomeIcon icon={faPepperHot} className='pepper-hot'/>))} </span> : <span>{Array.from({length:1},()=>(<FontAwesomeIcon icon={faPepperHot} className='pepper-hot'/> ))} </span> }
                                 </div>
                                 <div className='col-md-1'>                                
                                     {hearts[idx] ? (
