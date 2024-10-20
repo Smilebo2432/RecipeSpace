@@ -116,7 +116,7 @@ const Dishes = () => {
                 <div className="card-background" key={idx} >
                     <div className='row'>
                         <div className='col-md-4'>
-                            <img className='card-image' src={dishesFiltered[idx].imgLink} alt={dishesFiltered[idx].name} />
+                            <img className='card-image' src={`${process.env.PUBLIC_URL}${dishesFiltered[idx].imgLink}`} alt={dishesFiltered[idx].name} />
                         </div>
                         <div className='col-md-8' >
                             <div className='row card-content'>

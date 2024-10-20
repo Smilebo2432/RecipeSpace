@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const Filters = () => {
     const navigate = useNavigate();
     const [filters, setFilters] = useState({
-        vegFilter: ['Veg', 'Non-Veg'],
+        vegFilter: [...new Set(dishes.flatMap(dish => dish.dietaryPreference))],
         allergies: [...new Set(dishes.flatMap(dish => dish.allergies))],
         spiceLevel: ['Low', 'Medium', 'High']
     });

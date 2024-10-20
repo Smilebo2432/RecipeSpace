@@ -1,7 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import './Recipe.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faPepperHot } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faFire, faPepperHot } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
 const Recipe = () => {
     const location = useLocation()
     const {state} = location || {}; 
@@ -13,8 +14,9 @@ const Recipe = () => {
                 <div className="recipe-image-div">
                     <img src={state?.imgLink} alt={state?.name} className='recipe-image'/>
                     <div className="recipe-image-details">
-                        <h4>{state?.name}</h4>
-                        <h6> {state?.dietaryPreference}</h6>
+                        <h3>{state?.name}</h3>
+                        <h5> {state?.dietaryPreference}</h5>
+                        <h6> <FontAwesomeIcon icon={faClock}/>  {state?.Time} | <FontAwesomeIcon icon={faFire} /> {state?.Calories} calories </h6>
                         {state?.spiceLevel === 'High' ? <span>{Array.from({length:3},()=>(<FontAwesomeIcon className='pepper-hot' icon={faPepperHot}/>))} </span>  : state?.spiceLevel === 'Medium'? <span>{Array.from({length:2},()=>(<FontAwesomeIcon icon={faPepperHot} className='pepper-hot'/>))} </span> : <span>{Array.from({length:1},()=>(<FontAwesomeIcon icon={faPepperHot} className='pepper-hot'/> ))} </span> }
                     </div>                    
                 </div>
