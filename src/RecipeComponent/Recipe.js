@@ -2,7 +2,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import './Recipe.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faPepperHot } from "@fortawesome/free-solid-svg-icons";
-import '../../src/imgs/'
 const Recipe = () => {
     const location = useLocation()
     const {state} = location || {}; 
