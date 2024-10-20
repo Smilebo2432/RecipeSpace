@@ -521,7 +521,7 @@ const dishes = [
         Calories: "450",
 	Time: "20 mins",
         dietaryPreference: "Non-Veg",
-        imgLink: '/imgs/Chicken_Quesadillas(1).jpg',
+        imgLink: '../../src/imgs/Chicken_Quesadillas(1).jpg',
         credits: 'https://www.simplyrecipes.com/'
         
         
