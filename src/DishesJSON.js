@@ -101,7 +101,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "250",
         Time: "10 mins",
-        imgLink: 'https://www.imghippo.com/i/VcCt41729458037.jpg',
+        imgLink: 'https://iili.io/236XVGR.jpg',
         credits: 'https://www.simplyrecipes.com/recipes/avocado_toast/'
     },
     {
