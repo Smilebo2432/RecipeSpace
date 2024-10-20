@@ -41,8 +41,8 @@ const dishes = [
         allergies: ['gluten', 'Soy'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
-        calories: '',
-        time: '',
+        Calories: '450',
+        Time: '45',
         imgLink: 'https://i.ibb.co/QpwRPY3/spicy-chicken-wings.jpg',
         credits: 'https://bakerbynature.com/sweet-spicy-sriracha-baked-chicken-wings/'
     },
@@ -74,8 +74,8 @@ const dishes = [
         spiceLevel: 'High',
         dietaryPreference: "Veg",
         imgLink: '',
-        calories: '',
-        time: '',
+        Calories: "350",
+        Time: "30 mins",
         credits: 'https://www.cookwithmanali.com/paneer-tikka/'
     },
     {
@@ -99,8 +99,8 @@ const dishes = [
         allergies: ['gluten'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
-        calories: '',
-        time: '',
+        Calories: "250",
+        Time: "10 mins",
         imgLink: '',
         credits: 'https://www.simplyrecipes.com/recipes/avocado_toast/'
     },
@@ -135,6 +135,8 @@ const dishes = [
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
         imgLink: '',
+        Calories: "500",
+        Time: "3 Hrs",
         credits: 'https://www.vietworldkitchen.com/'
     },
     {
@@ -163,8 +165,8 @@ const dishes = [
         allergies: [],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
-        calories: '',
-        time: '',
+        Calories: "350",
+        Time: "1 Hr",
         imgLink: '',
         credits: 'https://www.foodnetwork.com/'
     },
@@ -203,6 +205,8 @@ const dishes = [
         allergies: ['dairy'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
+        Calories: "350",
+        Time: "40 mins",
         imgLink: '',
         credits: 'https://www.bonappetit.com/'
     },
@@ -235,6 +239,8 @@ const dishes = [
         spiceLevel: 'Medium',
         dietaryPreference: "Veg",
         SDP: "vegan", 
+        Calories: "300",
+        Time: "30 mins",
         imgLink: 'https://i.ibb.co/8N6v0Mn/Vegetarian-Tacos.jpg',
         credits: 'https://www.twopeasandtheirpod.com/easy-vegetarian-tacos/'
     },
@@ -264,6 +270,8 @@ const dishes = [
         allergies: ['Wheat', 'Dairy', 'Tomato', 'Pepperoni'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
+        Calories: "200",
+		Time: "30 mins",
         imgLink: 'https://i.ibb.co/svGmDPM/Pepperoni-Pizza-Rolls.jpg',
         credits: 'www.thepioneerwoman.com'
     },
@@ -287,6 +295,8 @@ const dishes = [
         allergies: ['Wheat', 'Dairy', 'Soy', 'Sulfites or Nitrates', 'Mustard or Ketchup'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
+        Calories: "300",
+		Time: "15 mins",
         imgLink: 'https://i.ibb.co/GxbVhP7/Air-Fryer-Hot-Dogs.jpg',
         credits: 'www.thepioneerwoman.com'
     },
@@ -328,6 +338,8 @@ const dishes = [
         allergies: ['Dairy', 'Nuts', 'Gluten', 'Spices'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
+        Calories: "600",
+		Time: "1.5 hours",
         imgLink: 'https://i.ibb.co/V20pCLf/Chicken-Biryani.jpg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
@@ -358,6 +370,8 @@ const dishes = [
         allergies: ['Soy'],
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
+        Calories: "400",
+		Time: "35 mins",
         imgLink: '',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
@@ -400,6 +414,8 @@ const dishes = [
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         SDP: "Vegan",
+        Calories: "500",
+		Time: "35 mins",
         imgLink: 'https://i.ibb.co/qCR4qYf/Falafel-Wrap.jpg',
         credits: 'https://www.feastingathome.com/falafel-recipe/'
     },
@@ -433,6 +449,8 @@ const dishes = [
         allergies: ['fish', 'Soy'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
+        Calories: "350",
+		Time: "2 hours",
         imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
@@ -464,6 +482,8 @@ const dishes = [
         allergies: ['dairy'],
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
+        Calories: "500",
+		Time: "1 hours",
         imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
@@ -498,6 +518,8 @@ const dishes = [
         },
         allergies: ['gluten', 'dairy'],
         spiceLevel: 'Medium',
+        Calories: "450",
+		Time: "20 mins",
         dietaryPreference: "Non-Veg",
         imgLink: '',
         credits: 'https://www.simplyrecipes.com/'
@@ -534,6 +556,8 @@ const dishes = [
         allergies: ['gluten', 'dairy'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
+        Calories: "350",
+		Time: "40 mins",
         imgLink: '',
         credits: 'https://www.eatingwell.com/'
     },
@@ -561,6 +585,8 @@ const dishes = [
         allergies: ['dairy'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
+        Calories: "200",
+		Time: "30",
         imgLink: '',
         credits: 'https://www.simplyrecipes.com/'
     },
@@ -837,7 +863,7 @@ const dishes = [
             ],
             steps: [
               	"Bring a large pot of generously salted water to a boil. Add the macaroni and cook according to package directions.",
-								"Drain and rinse under cold water.",
+				"Drain and rinse under cold water.",
                 "Meanwhile, in a large bowl, combine mayonnaise, vinegar, tomatoes (and all of the juice from the tomatoes), olives, onion, garlic powder, oregano, salt, and pepper. Mix well.",
                 "When the pasta is done, mix it in and serve right away at room temperature or chilled."
             ]
