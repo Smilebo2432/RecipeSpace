@@ -70,17 +70,10 @@ const dishes = [
                 "Serve with mint chutney and lemon wedges."
             ]
         },
-<<<<<<< HEAD
         allergies: ['Dairy'],
         spiceLevel: 'High',
         dietaryPreference: "Veg",
         imgLink: '',
-=======
-        allergies: ['dairy'],
-        spiceLevel: 'High',
-        dietaryPreference: "Veg",
-        imgLink: 'https://iili.io/23P4RHu.jpg',
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         Calories: "350",
         Time: "30 mins",
         credits: 'https://www.cookwithmanali.com/paneer-tikka/'
@@ -108,11 +101,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "250",
         Time: "10 mins",
-<<<<<<< HEAD
-        imgLink: '',
-=======
         imgLink: 'https://iili.io/236XVGR.jpg',
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         credits: 'https://www.simplyrecipes.com/recipes/avocado_toast/'
     },
     {
@@ -213,11 +202,7 @@ const dishes = [
                 
             ]
         },
-<<<<<<< HEAD
         allergies: ['Dairy'],
-=======
-        allergies: ['dairy'],
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         Calories: "350",
@@ -256,11 +241,7 @@ const dishes = [
         SDP: "vegan", 
         Calories: "300",
         Time: "30 mins",
-<<<<<<< HEAD
         imgLink: 'https://i.ibb.co/8N6v0Mn/Vegetarian-Tacos.jpg',
-=======
-        imgLink: 'https://i.ibb.co/PFWZ7xc/Veg-taco-resized.jpg',
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         credits: 'https://www.twopeasandtheirpod.com/easy-vegetarian-tacos/'
     },
     {
@@ -431,11 +412,7 @@ const dishes = [
         },
         allergies: ['gluten', 'garlic'],
         spiceLevel: 'Low',
-<<<<<<< HEAD
         dietaryPreference: "Vegan",
-=======
-        dietaryPreference: "Veg",
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         SDP: "Vegan",
         Calories: "500",
 		Time: "35 mins",
@@ -502,20 +479,12 @@ const dishes = [
                 "Garnish with cilantro and serve with naan or rice."
             ]
         },
-<<<<<<< HEAD
         allergies: ['Dairy'],
-=======
-        allergies: ['dairy'],
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
         Calories: "500",
 		Time: "1 hours",
-<<<<<<< HEAD
-        imgLink: 'public/imgs/chicken_cassadia.jpeg',
-=======
-        imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
+        imgLink: '/imgs/chicken_cassadia.jpeg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
@@ -547,21 +516,12 @@ const dishes = [
                 
             ]
         },
-<<<<<<< HEAD
         allergies: ['gluten', 'Dairy'],
         spiceLevel: 'Medium',
         Calories: "450",
 		Time: "20 mins",
         dietaryPreference: "Non-Veg",
         imgLink: '',
-=======
-        allergies: ['gluten', 'dairy'],
-        spiceLevel: 'Medium',
-        Calories: "450",
-	Time: "20 mins",
-        dietaryPreference: "Non-Veg",
-        imgLink: '../../src/imgs/Chicken_Quesadillas(1).jpg',
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         credits: 'https://www.simplyrecipes.com/'
         
         
@@ -593,11 +553,7 @@ const dishes = [
                 "Serve hot."
             ]
         },
-<<<<<<< HEAD
         allergies: ['gluten', 'Dairy'],
-=======
-        allergies: ['gluten', 'dairy'],
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         Calories: "350",
@@ -626,11 +582,7 @@ const dishes = [
                 "Serve hot, optionally garnished with a drizzle of cream or croutons."
             ]
         },
-<<<<<<< HEAD
         allergies: ['Dairy'],
-=======
-        allergies: ['dairy'],
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         Calories: "200",
@@ -806,11 +758,7 @@ const dishes = [
         },
         allergies: ['Seafood', 'Dairy', 'Nuts', 'Gluten','Soy'],
         spiceLevel: 'Low',
-<<<<<<< HEAD
         dietaryPreference: "Vegan",
-=======
-        dietaryPreference: "Veg",
->>>>>>> e944a68640ab752b9e1f09f183e3ebe454166e20
         SDP: "Vegan",
         Calories: "346",
         Time: "40 mins",
