@@ -73,7 +73,7 @@ const dishes = [
         allergies: ['dairy'],
         spiceLevel: 'High',
         dietaryPreference: "Veg",
-        imgLink: '',
+        imgLink: 'https://iili.io/23P4RHu.jpg',
         Calories: "350",
         Time: "30 mins",
         credits: 'https://www.cookwithmanali.com/paneer-tikka/'
