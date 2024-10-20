@@ -32,13 +32,179 @@ const dishes = [
                 "Stir and simmer for 2-3 minutes until the sauce thickens slightly.",
                 "Toss the fried wings in the hot, spicy sauce until fully coated.",
                 "Serve immediately with a side of ranch or blue cheese dressing, celery sticks, or any preferred dipping sauce."
+                
+                
+                
+                
             ]
         },
         allergies: ['gluten', 'Soy'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
+        calories: '',
+        time: '',
         imgLink: 'https://i.ibb.co/QpwRPY3/spicy-chicken-wings.jpg',
         credits: 'https://bakerbynature.com/sweet-spicy-sriracha-baked-chicken-wings/'
+    },
+    {
+        name: 'Paneer Tikka',
+        description: 'Grilled paneer cubes marinated in spicy yogurt.',
+        procedure: {
+            ingredients: [
+                "500g paneer, cut into cubes",
+                "1 cup yogurt",
+                "2 tbsp lemon juice",
+                "1 tsp turmeric powder",
+                "1 tsp red chili powder",
+                "1 tsp garam masala",
+                "1 tbsp ginger-garlic paste",
+                "Salt to taste",
+                "2 tbsp oil"
+                
+            ],
+            steps: [
+                "In a bowl, mix yogurt, lemon juice, turmeric, red chili powder, garam masala, ginger-garlic paste, and salt.",
+                "Add the paneer cubes and marinate for at least 1 hour.",
+                "Preheat a grill or oven to 400°F (200°C).",
+                "Grill the marinated paneer cubes until golden and charred at the edges, about 10-12 minutes.",
+                "Serve with mint chutney and lemon wedges."
+            ]
+        },
+        allergies: ['dairy'],
+        spiceLevel: 'High',
+        dietaryPreference: "Veg",
+        imgLink: '',
+        calories: '',
+        time: '',
+        credits: 'https://www.cookwithmanali.com/paneer-tikka/'
+    },
+    {
+        name: 'Avocado Toast',
+        description: 'Toasted bread topped with mashed avocado, lime, and chili flakes.',
+        procedure: {
+            ingredients: [
+                "2 slices of whole grain bread",
+                "1 ripe avocado",
+                "1 tbsp lime juice",
+                "Salt and pepper to taste",
+                "1/4 tsp red chili flakes"
+            ],
+            steps: [
+                "Toast the slices of bread until golden and crispy.",
+                "In a small bowl, mash the avocado with lime juice, salt, and pepper.",
+                "Spread the avocado mixture evenly on the toasted bread.",
+                "Sprinkle red chili flakes on top and serve immediately."
+            ]
+        },
+        allergies: ['gluten'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        calories: '',
+        time: '',
+        imgLink: '',
+        credits: 'https://www.simplyrecipes.com/recipes/avocado_toast/'
+    },
+    {
+        name: 'Pho',
+        description: 'Vietnamese noodle soup with beef, herbs, and aromatic broth.',
+        procedure: {
+            ingredients: [
+                "1 lb beef bones",
+                "1 onion, halved",
+                "1 piece ginger, sliced",
+                "2 tbsp fish sauce",
+                "1 cinnamon stick",
+                "4 cloves",
+                "1 star anise",
+                "1 lb rice noodles",
+                "1/2 lb beef sirloin, thinly sliced",
+                "Fresh herbs (cilantro, basil)",
+                "Lime wedges",
+                "Bean sprouts"
+            ],
+            steps: [
+                "In a large pot, boil beef bones with onion and ginger for 10 minutes. Drain and rinse the bones.",
+                "Refill the pot with fresh water and add fish sauce, cinnamon stick, cloves, and star anise.",
+                "Simmer for 4-6 hours to make the broth.",
+                "Cook the rice noodles according to the package instructions and divide into bowls.",
+                "Place thin slices of beef on top of the noodles, then ladle the hot broth over them.",
+                "Serve with fresh herbs, lime wedges, and bean sprouts."
+            ]
+        },
+        allergies: ['Soy', 'Fish sauce'],
+        spiceLevel: 'Medium',
+        dietaryPreference: "Non-Veg",
+        imgLink: '',
+        credits: 'https://www.vietworldkitchen.com/'
+    },
+    {
+        name: 'Chili Con Carne',
+        description: 'Hearty chili with ground beef, beans, and tomatoes.',
+        procedure: {
+            ingredients: [
+                "1 lb ground beef",
+                "1 onion, chopped",
+                "2 garlic cloves, minced",
+                "1 can kidney beans, drained",
+                "1 can diced tomatoes",
+                "1 tbsp chili powder",
+                "1 tsp cumin",
+                "Salt and pepper to taste"
+            ],
+            steps: [
+                "In a large pot, brown the ground beef over medium heat. Drain excess fat.",
+                "Add chopped onions and garlic, and cook until softened.",
+                "Stir in chili powder and cumin, cooking for another minute.",
+                "Add diced tomatoes and kidney beans, and bring to a simmer.",
+                "Simmer for 20 minutes, stirring occasionally.",
+                "Season with salt and pepper, and serve with rice or cornbread."
+            ]
+        },
+        allergies: [],
+        spiceLevel: 'High',
+        dietaryPreference: "Non-Veg",
+        calories: '',
+        time: '',
+        imgLink: '',
+        credits: 'https://www.foodnetwork.com/'
+    },
+    {
+        name: 'Mushroom Risotto',
+        description: 'Creamy arborio rice cooked with mushrooms and Parmesan.',
+        procedure: {
+            ingredients: [
+                "1 cup arborio rice",
+                "4 cups vegetable broth",
+                "1/2 cup white wine",
+                "1 onion, chopped",
+                "2 cups mushrooms, sliced",
+                "1/2 cup Parmesan cheese, grated",
+                "2 tbsp butter",
+                "Salt and pepper to taste"
+            ],
+            steps: [
+                "Heat the broth in a pot and keep it warm.",
+                "In a large pan, melt butter and sauté onions and mushrooms until softened.",
+                "Add arborio rice and stir for 1-2 minutes until the rice is lightly toasted.",
+                "Pour in the white wine and cook until absorbed.",
+                "Gradually add the warm broth, one ladle at a time, stirring constantly until absorbed.",
+                "Continue this process until the rice is creamy and fully cooked.",
+                "Stir in Parmesan cheese, season with salt and pepper, and serve immediately."
+                
+                
+                
+                
+                
+                
+                
+                
+            ]
+        },
+        allergies: ['dairy'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        imgLink: '',
+        credits: 'https://www.bonappetit.com/'
     },
     {
         name: 'Vegetarian Tacos',
@@ -59,11 +225,16 @@ const dishes = [
                 "Assemble the tacos by adding roasted vegetables, black beans, and salsa to each tortilla.",
                 "Top with avocado slices and fresh cilantro.",
                 "Serve immediately."
+                
+                
+                
+                
             ]
         },
         allergies: ['gluten'],
         spiceLevel: 'Medium',
         dietaryPreference: "Veg",
+        SDP: "vegan", 
         imgLink: 'https://i.ibb.co/8N6v0Mn/Vegetarian-Tacos.jpg',
         credits: 'https://www.twopeasandtheirpod.com/easy-vegetarian-tacos/'
     },
@@ -142,9 +313,19 @@ const dishes = [
                 "Add partially cooked basmati rice and layer with saffron-infused milk and fried onions.",
                 "Cover and steam on low heat for 20-25 minutes until the rice is fully cooked.",
                 "Garnish with fresh herbs and serve hot."
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             ]
         },
-        allergies: ['Dairy', 'Nuts', 'Gluten', 'Saffron', 'Cinnamon', 'Cardamom', 'Chili powder', 'Cumin', 'Coriander', 'Turmeric', 'Cloves', 'Bay Leaves', 'Black Pepper', 'Ginger', 'Garlic', 'Nutmeg', 'Fenugreek'],
+        allergies: ['Dairy', 'Nuts', 'Gluten', 'Spices'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
         imgLink: 'https://i.ibb.co/V20pCLf/Chicken-Biryani.jpg',
@@ -163,6 +344,7 @@ const dishes = [
                 "2 cloves garlic, minced",
                 "1 tbsp ginger, minced",
                 "Oil for cooking"
+                
             ],
             steps: [
                 "Marinate the beef in Soy sauce, cornstarch, garlic, and ginger for 30 minutes.",
@@ -170,6 +352,7 @@ const dishes = [
                 "Add marinated beef and stir-fry for 2-3 minutes until browned.",
                 "Add mixed vegetables and stir-fry for another 3-4 minutes.",
                 "Add oyster sauce if using, stir well, and serve with rice."
+                
             ]
         },
         allergies: ['Soy'],
@@ -201,292 +384,503 @@ const dishes = [
                 "Fry in hot oil until golden brown.",
                 "Spread hummus on pita, add falafel and fresh vegetables.",
                 "Wrap and serve."
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             ]
         },
         allergies: ['gluten', 'garlic'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
+        SDP: "Vegan",
         imgLink: 'https://i.ibb.co/qCR4qYf/Falafel-Wrap.jpg',
         credits: 'https://www.feastingathome.com/falafel-recipe/'
     },
     {
-        name: 'Mango Salsa',
-        description: 'Fresh mango, bell pepper, and cilantro salsa with a lime kick.',
-        procedure: 'Dice ingredients, mix with lime juice, and serve.',
-        allergies: [],
-        spiceLevel: 'Low',
-        dietaryPreference:"Non-Veg",
-        imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
-        credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
-    },
-    {
         name: 'Sushi Platter',
         description: 'Assorted sushi rolls with fresh fish, rice, and seaweed.',
-        procedure: 'Roll sushi with ingredients, slice, and serve with Soy sauce.',
+        procedure: {
+            ingredients: [
+                "2 cups sushi rice, cooked",
+                "1/4 cup rice vinegar",
+                "Fresh fish (tuna, salmon, etc.)",
+                "Nori sheets (seaweed)",
+                "Soy sauce for dipping",
+                "Wasabi and pickled ginger (optional)"
+                
+                
+                
+                
+                
+                
+                
+            ],
+            steps: [
+                "Mix rice vinegar with cooked sushi rice.",
+                "Place a sheet of nori on a bamboo mat, shiny side down.",
+                "Spread rice evenly over the nori, leaving space at the top.",
+                "Add fresh fish or other fillings.",
+                "Roll the sushi tightly, slice, and serve with Soy sauce, wasabi, and ginger."
+            ]
+        },
         allergies: ['fish', 'Soy'],
         spiceLevel: 'Low',
-        dietaryPreference:"Non-Veg",
+        dietaryPreference: "Non-Veg",
         imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
         name: 'Butter Chicken',
         description: 'Creamy tomato-based chicken curry with Indian spices.',
-        procedure: 'Cook chicken in sauce and serve with naan or rice.',
+        procedure: {
+            ingredients: [
+                "1 lb chicken, cut into pieces",
+                "1 cup tomato puree",
+                "1/2 cup heavy cream",
+                "1/4 cup yogurt",
+                "2 tbsp butter",
+                "Spices: garam masala, chili powder, cumin, coriander",
+                "1 onion, chopped",
+                "2 cloves garlic, minced",
+                "1-inch ginger, minced",
+                "Fresh cilantro for garnish"
+            ],
+            steps: [
+                "Marinate the chicken in yogurt, salt, and spices for at least 1 hour.",
+                "Heat butter in a pan and sauté onions, garlic, and ginger until golden.",
+                "Add tomato puree and cook until the oil separates.",
+                "Stir in the marinated chicken and cook until done.",
+                "Add cream and simmer for 5-10 minutes.",
+                "Garnish with cilantro and serve with naan or rice."
+            ]
+        },
         allergies: ['dairy'],
         spiceLevel: 'Medium',
-        dietaryPreference:"Non-Veg",
+        dietaryPreference: "Non-Veg",
         imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
-    },
-    {
-        name: 'Vegetable Pad Thai',
-        description: 'Rice noodles stir-fried with vegetables, tofu, and peanuts.',
-        procedure: 'Cook noodles and vegetables, mix with sauce, and serve.',
-        allergies: ['peanuts', 'Soy'],
-        spiceLevel: 'Medium',
-        dietaryPreference:"Non-Veg",
-        imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
-        credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
-    },
-    {
-        name: 'Lamb Rogan Josh',
-        description: 'Slow-cooked lamb curry with aromatic spices.',
-        procedure: 'Cook lamb in spices and serve with rice.',
-        allergies: ['dairy'],
-        spiceLevel: 'High'
-    },
-    {
-        name: 'Caesar Salad',
-        description: 'Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan.',
-        procedure: 'Toss ingredients together and serve.',
-        allergies: ['dairy', 'gluten', 'fish'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Paneer Tikka',
-        description: 'Grilled paneer cubes marinated in spicy yogurt.',
-        procedure: 'Marinate paneer, grill, and serve with chutney.',
-        allergies: ['dairy'],
-        spiceLevel: 'High'
-    },
-    {
-        name: 'Shrimp Scampi',
-        description: 'Shrimp sautéed in garlic butter with a lemony white wine sauce.',
-        procedure: 'Sauté shrimp, add sauce, and serve with pasta.',
-        allergies: ['shellfish', 'dairy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Avocado Toast',
-        description: 'Toasted bread topped with mashed avocado, lime, and chili flakes.',
-        procedure: 'Toast bread, spread avocado, and serve.',
-        allergies: ['gluten'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'BBQ Ribs',
-        description: 'Tender pork ribs slathered in BBQ sauce, slow-cooked to perfection.',
-        procedure: 'Cook ribs, baste with sauce, and serve.',
-        allergies: [],
-        spiceLevel: 'Medium'
-    },
-    {
-        name: 'Greek Salad',
-        description: 'Tomatoes, cucumbers, olives, and feta cheese with olive oil dressing.',
-        procedure: 'Chop vegetables, toss with dressing, and serve.',
-        allergies: ['dairy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Eggplant Parmesan',
-        description: 'Baked eggplant layered with marinara sauce and melted cheese.',
-        procedure: 'Layer eggplant and sauce, bake, and serve.',
-        allergies: ['dairy', 'gluten'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Pho',
-        description: 'Vietnamese noodle soup with beef, herbs, and aromatic broth.',
-        procedure: 'Cook broth, add noodles and beef, and serve with herbs.',
-        allergies: ['Soy'],
-        spiceLevel: 'Medium'
-    },
-    {
-        name: 'Chili Con Carne',
-        description: 'Hearty chili with ground beef, beans, and tomatoes.',
-        procedure: 'Cook beef and beans in a spiced tomato sauce, and serve.',
-        allergies: [],
-        spiceLevel: 'High'
-    },
-    {
-        name: 'Mushroom Risotto',
-        description: 'Creamy arborio rice cooked with mushrooms and Parmesan.',
-        procedure: 'Cook rice slowly, add mushrooms and cheese, and serve.',
-        allergies: ['dairy'],
-        spiceLevel: 'Low'
     },
     {
         name: 'Chicken Quesadilla',
         description: 'Grilled tortilla filled with chicken, cheese, and peppers.',
-        procedure: 'Grill tortilla with filling, and serve with salsa.',
+        procedure: {
+            ingredients: [
+                "2 large flour tortillas",
+                "1 cup cooked chicken, shredded",
+                "1/2 cup bell peppers, sliced",
+                "1 cup shredded cheese (cheddar or Monterey Jack)",
+                "1 tbsp olive oil",
+                "Salsa and sour cream for serving"
+            ],
+            steps: [
+                "Heat olive oil in a skillet over medium heat.",
+                "Place one tortilla in the skillet and sprinkle half of the cheese evenly over it.",
+                "Add the shredded chicken and bell peppers on top of the cheese.",
+                "Sprinkle the remaining cheese over the chicken and peppers, then place the second tortilla on top.",
+                "Cook for 2-3 minutes on each side, or until the tortilla is golden brown and the cheese is melted.",
+                "Slice into wedges and serve with salsa and sour cream."
+                
+                
+                
+                
+                
+                
+                
+                
+            ]
+        },
         allergies: ['gluten', 'dairy'],
-        spiceLevel: 'Medium'
+        spiceLevel: 'Medium',
+        dietaryPreference: "Non-Veg",
+        imgLink: '',
+        credits: 'https://www.simplyrecipes.com/'
+        
+        
+        
+        
+        
     },
     {
-        name: 'Coconut Shrimp',
-        description: 'Crispy shrimp coated in coconut flakes, served with sweet chili sauce.',
-        procedure: 'Coat shrimp, fry, and serve with sauce.',
-        allergies: ['shellfish'],
-        spiceLevel: 'Low'
+        name: 'Healthy Baked Macaroni and Cheese',
+        description: 'A healthier version of the classic comfort dish, made with whole wheat pasta and lighter cheese.',
+        procedure: {
+            ingredients: [
+                "2 cups whole wheat elbow macaroni",
+                "2 cups low-fat milk",
+                "1 1/2 cups sharp cheddar cheese, shredded",
+                "1 tbsp flour",
+                "1 tbsp butter",
+                "Salt and pepper to taste",
+                "1/4 cup whole wheat breadcrumbs"
+            ],
+            steps: [
+                "Preheat the oven to 375°F (190°C).",
+                "Cook the macaroni according to the package instructions, drain, and set aside.",
+                "In a saucepan, melt butter over medium heat, stir in the flour, and cook for 1 minute.",
+                "Gradually whisk in the milk, cooking until thickened.",
+                "Remove from heat and stir in the cheese until melted and smooth.",
+                "Combine the cheese sauce with the cooked macaroni and transfer to a baking dish.",
+                "Top with breadcrumbs and bake for 20 minutes, or until bubbly and golden brown.",
+                "Serve hot."
+            ]
+        },
+        allergies: ['gluten', 'dairy'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        imgLink: '',
+        credits: 'https://www.eatingwell.com/'
     },
     {
-        name: 'Tandoori Chicken',
-        description: 'Spicy, marinated chicken cooked in a tandoor oven.',
-        procedure: 'Marinate chicken, grill, and serve with naan.',
+        name: 'Cream of Asparagus Soup',
+        description: 'A creamy and smooth asparagus soup, perfect for a light lunch or starter.',
+        procedure: {
+            ingredients: [
+                "1 lb fresh asparagus, trimmed",
+                "1 small onion, chopped",
+                "1 clove garlic, minced",
+                "2 cups vegetable broth",
+                "1/2 cup heavy cream",
+                "Salt and pepper to taste",
+                "1 tbsp olive oil"
+            ],
+            steps: [
+                "Heat olive oil in a pot over medium heat. Add the onion and garlic, cooking until soft.",
+                "Add the chopped asparagus and vegetable broth, bring to a boil, then reduce heat and simmer for 15 minutes.",
+                "Use an immersion blender to puree the soup until smooth.",
+                "Stir in the heavy cream, season with salt and pepper, and heat through for another 5 minutes.",
+                "Serve hot, optionally garnished with a drizzle of cream or croutons."
+            ]
+        },
         allergies: ['dairy'],
-        spiceLevel: 'High'
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        imgLink: '',
+        credits: 'https://www.simplyrecipes.com/'
     },
     {
-        name: 'Tom Yum Soup',
-        description: 'Hot and sour Thai soup with shrimp, mushrooms, and lemongrass.',
-        procedure: 'Cook broth, add shrimp and mushrooms, and serve.',
-        allergies: ['shellfish'],
-        spiceLevel: 'High'
+     name: 'Juicy Lucy (Stuffed Turkey Cheeseburger)',
+        description: 'A juicy, stuffed Turkey Cheeseburger.',
+        procedure: {
+            ingredients: [
+                "4 slices part-skim cheddar cheese slices, or 2% American cheese (0.7 ounces each)",
+                "1 lb 93% lean ground turkey",
+                "1 tsp kosher salt",
+                "black pepper to taste",
+                "4 hamburger rolls",
+                "4 Iceburg lettuce",
+                "red onion, sliced into rings and separated",
+                "tomatoes, sliced",
+                "sliced pickles",
+                "favorite condiments"
+            ],
+            steps: [
+                "Fold each slice of cheese into quarters to create 4 short stacks.",
+                "Divide the ground turkey into 8 equal balls then flatten into 1/4 inch thick patties.",
+                "Place a stack of cheese in the center of 4 patties and top with the remaining 4 patties. Pinch the edges to seal.",
+                "Season both sides with salt and black pepper.",
+                "Place patties and oiled grill and cover, cook about 6 minutes per side over medium heat, or until the center is cooked through.",
+                "Serve"
+            ]
+        },
+        allergies: ['Egg', 'Dairy', 'Gluten', 'Wheat'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Non-Veg",
+        Calories: "309",
+        Time: "20 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Lasagna',
-        description: 'Layers of pasta, meat sauce, and cheese, baked to perfection.',
-        procedure: 'Layer pasta, sauce, and cheese, bake, and serve.',
-        allergies: ['gluten', 'dairy'],
-        spiceLevel: 'Low'
+     name: 'Mummy Hot Dogs',
+        description: 'A fun and goofy take on an icon meal',
+        procedure: {
+            ingredients: [
+                "1 cup unbleached all-purpose flour, whole wheat or gluten-free mix, plus more for dusting (5 ounces)",
+                "2 teaspoons baking powder",
+                "3/4 tsp kosher salt",
+                "1 cup non-fat plain Greek yogurt",
+                "1 egg white, beaten (whole egg works fine too)",
+                "8 turkey hot dogs, such as Applegate Naturals, halved crosswise",
+                "1 package candy eyes",
+                "mustard or ketchup, optional for serving"
+            ],
+            steps: [
+                "Preheat oven to 400 degrees F",
+                "Line a baking sheet with a silicon baking mat or parchment paper. If using parchment paper, spray with oil to avoid sticking.",
+                "In a medium bowl, combine the flour, baking powder, and salt and whisk well. Add the yogurt and mix with a fork or spatula until well combined; it will look like small crumbles.",
+                "Lightly dust flour on a work surface and remove dough from the bowl. Knead the dough a few times until smooth and tacky but not sticky, about 15 turns (it should not leave dough on your hand when you pull away).",
+                "Dust your work surface and a rolling pin with more flour.",
+                "Roll the dough out thin into a rectangle. Slice the dough into 1/4-inch thick slices.",
+                "Wrap the dough around each hot dog half, leaving room for the eyes, and place on the prepared baking sheet. Repeat with remaining hot dogs and dough.",
+                "Brush each with the egg wash and bake in the oven for 12 minutes.",
+                "Using mustard or ketchup, “glue” the eyes on. Allow to cool for 10 minutes and serve."
+            ]
+        },
+        allergies: ['Wheat', 'Gluten', 'Dairy', 'Soy', 'Egg', 'Pork/Beef'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Non-Veg",
+        Calories: "81",
+        Time: "52 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Prawn Tempura',
-        description: 'Lightly battered prawns deep-fried until crispy.',
-        procedure: 'Batter prawns, fry, and serve with dipping sauce.',
-        allergies: ['shellfish'],
-        spiceLevel: 'Low'
+     name: 'Mummy Hot Dogs',
+        description: 'A fun and goofy take on an icon meal',
+        procedure: {
+            ingredients: [
+                "1 cup unbleached all-purpose flour, whole wheat or gluten-free mix, plus more for dusting (5 ounces)",
+                "2 teaspoons baking powder",
+                "3/4 tsp kosher salt",
+                "1 cup non-fat plain Greek yogurt",
+                "1 egg white, beaten (whole egg works fine too)",
+                "8 turkey hot dogs, such as Applegate Naturals, halved crosswise",
+                "1 package candy eyes",
+                "mustard or ketchup, optional for serving"
+                
+                
+                
+                
+            ],
+            steps: [
+                "Preheat oven to 400 degrees F",
+                "Line a baking sheet with a silicon baking mat or parchment paper. If using parchment paper, spray with oil to avoid sticking.",
+                "In a medium bowl, combine the flour, baking powder, and salt and whisk well. Add the yogurt and mix with a fork or spatula until well combined; it will look like small crumbles.",
+                "Lightly dust flour on a work surface and remove dough from the bowl. Knead the dough a few times until smooth and tacky but not sticky, about 15 turns (it should not leave dough on your hand when you pull away).",
+                "Dust your work surface and a rolling pin with more flour.",
+                "Roll the dough out thin into a rectangle. Slice the dough into 1/4-inch thick slices.",
+                "Wrap the dough around each hot dog half, leaving room for the eyes, and place on the prepared baking sheet. Repeat with remaining hot dogs and dough.",
+                "Brush each with the egg wash and bake in the oven for 12 minutes.",
+                "Using mustard or ketchup, “glue” the eyes on. Allow to cool for 10 minutes and serve."
+                
+                
+                
+                
+            ]
+        },
+        allergies: ['Wheat', 'Gluten', 'Dairy', 'Soy', 'Egg', 'Pork/Beef'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Non-Veg",
+        Calories: "81",
+        Time: "52 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Veggie Burger',
-        description: 'Grilled veggie patty served in a bun with lettuce and tomato.',
-        procedure: 'Grill patty, assemble burger, and serve.',
-        allergies: ['gluten'],
-        spiceLevel: 'Low'
+     name: 'Loaded Baked Potato Soup',
+        description: 'A fun and familiar test with comforting tastes.',
+        procedure: {
+            ingredients: [
+                "2 medium russet potatoes, washed and dried",
+                "1 small head cauliflower (3 1/2 cups or 16 ounces) stem removed cut into florets",
+                "1 1/2 cups chicken broth",
+                "1 1/2 cups 1% reduced-fat milk",
+                "kosher salt and freshly cracked black pepper, to taste",
+                "1/2 cup light sour cream",
+                "10 tbsp reduced-fat shredded sharp cheddar cheese",
+                "6 tbsp chopped chives, divided",
+                "3 slices center cut bacon, cooked and crumbled (you can use turkey bacon if you prefer)"
+            ],
+            steps: [
+                "Pierce potatoes with a fork; microwave on high for 5 minutes, turn over, and microwave another 3–5 minutes until tender. Or, if you prefer to use your oven, bake at 400°F for 1 hour or until tender. Cool and peel potatoes.",
+                "Meanwhile, steam cauliflower with water in a large covered pot until tender. Drain and return to pot.",
+                "On medium heat, add chicken broth, milk, and potatoes, and bring to a boil.",
+                "Use an immersion blender to puree until smooth. Add sour cream, half the chives, salt, and pepper, and cook on low for another 5–10 minutes, stirring occasionally.",
+                "Remove from heat. Ladle 1 cup of soup into each bowl.utes and serve."
+            ]
+        },
+        allergies: ['Gluten', 'Nut', 'Soy'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Non-Veg",
+        Calories: "200",
+        Time: "20 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Spaghetti Bolognese',
-        description: 'Classic Italian pasta with a rich, meaty tomato sauce.',
-        procedure: 'Cook pasta and sauce, mix together, and serve.',
-        allergies: ['gluten'],
-        spiceLevel: 'Low'
+     name: 'Green Curry Noodles',
+        description: 'An intresting combination between 2 popular thai dishes that makes this dish delictable.',
+        procedure: {
+            ingredients: [
+                "2 medium russet potatoes, washed and dried",
+                "1 small head cauliflower (3 1/2 cups or 16 ounces) stem removed cut into florets",
+                "1 1/2 cups chicken broth",
+                "1 1/2 cups 1% reduced-fat milk",
+                "kosher salt and freshly cracked black pepper, to taste",
+                "1/2 cup light sour cream",
+                "10 tbsp reduced-fat shredded sharp cheddar cheese",
+                "6 tbsp chopped chives, divided",
+                "3 slices center cut bacon, cooked and crumbled (you can use turkey bacon if you prefer)"
+            ],
+            steps: [
+                "Put the rice noodles in a large bowl, cover with very hot tap water, and stir to ensure they don’t clump. Let soak for 25 minutes, then drain.",
+                "Meanwhile, cut the tofu into 1/2-inch cubes. Lay the cubes on a layer of paper towels, then cover with another layer and let drain for 10 to 15 minutes while you chop the vegetables.",
+                "Remove the core from the bell pepper and thinly slice it. Trim the ends of the bok choy, slice the stems, and leave the leaves whole. ",
+                "In a large nonstick skillet over medium heat, warm the vegetable oil. When it shimmers, add the tofu and season with salt and pepper. Cook, tossing occasionally, until golden on most sides, about 5 minutes.", 
+                "Create a well in the center of the skillet and add the curry paste.",
+                "Fry, stirring constantly, for just a few seconds, until fragrant (it may start spitting), then add the coconut milk.",
+                "Add the lime juice, fish sauce, and brown sugar, and stir to combine. Bring to a simmer, then add the red pepper and cook until the pepper is crisp-tender, 4 to 5 minutes. ",
+                "Add the drained noodles and bok choy, and cook, stirring and tossing often to ensure even cooking and to prevent clumping, until the noodles are tender, about 5 minutes. Stir in the basil leaves and serve right away. "
+            ]
+        },
+        allergies: ['Seafood', 'Dairy', 'Nuts', 'Gluten','Soy'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        SDP: "Vegan",
+        Calories: "346",
+        Time: "40 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Currywurst',
-        description: 'Grilled sausage served with a tangy curry ketchup sauce.',
-        procedure: 'Grill sausage, add sauce, and serve.',
-        allergies: [],
-        spiceLevel: 'Medium'
+     name: 'Tofu Tacos',
+        description: 'An intresting combination between 2 popular thai dishes that makes this dish delictable.',
+        procedure: {
+            ingredients: [
+                "1 14 ounce package extra-firm tofu, drained",
+                "½ cup finely diced yellow onion",
+                "1 large garlic clove, minced",
+                "1 tablespoon olive oil",
+                "3 tablespoons less sodium soy sauce, I like Kikkoman",
+                "1 tablespoon tomato paste",
+                "2 teaspoons chili powder",
+                "1 teaspoon smoked paprika",
+                "1 teaspoon cumin",
+                "Olive oil spray",
+                "1 medium Russet potato, cut into ½-inch pieces",
+                "2 large jalapeño peppers, seeds and membranes removed, cut into ½-inch pieces",
+                "1 ½ tablespoons olive oil",
+                "1 teaspoon kosher salt",
+                "black pepper, to taste",
+                "4 ounces Hass avocado, sliced, from 1 small",
+                "8 6-inch corn tortillas",
+                "1 cup your favorite salsa, store bought or homemade",
+                "Optional toppings: shredded cheese, diced tomatoes, onions, lettuce or cilantro"
+            ],
+            steps: [
+              	"These vegan Tofu Tacos with Potatoes and Jalapeños are great when you want a plant-based taco that still has lots of protein.",
+                "Place tofu on a paper towel or tea towel lined plate. Cover with another towel and place a heavy pan on top to press out excess water from tofu.",
+                "Preheat oven to 400 degrees F.",
+                "Cover a large sheet pan with parchment paper and spray another small sheet pan with olive oil. Set aside.",
+                "In a medium bowl, add the onions, garlic, olive oil, soy sauce, tomato paste, chili powder, smoked paprika, and cumin.", 
+                "Whisk to combine, then crumble the tofu with your hands into small pieces into the mixture. Toss gently to combine and evenly coat the tofu with the sauce.",
+                "Spread tofu in an even layer on the parchment-lined sheet pan.",
+                "Place potatoes and jalapeños in an even layer on the small sheet pan.",
+                "Toss with olive oil, salt, and pepper to taste.",
+                "Transfer both sheet pans to the oven and cook for 35 minutes, tossing halfway through and rotating pans to allow for even browning.",
+                "Meanwhile, warm the tortillas (over an open flame, in a pan, or in the microwave). I prefer heating mine over an open flame, covering them as I go to keep them warm."
+            ]
+        },
+        allergies: ['Dairy', 'Nut', 'Gluten','Soy'],
+        spiceLevel: 'Medium',
+        dietaryPreference: "Veg",
+        Calories: "444",
+        Time: "50 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Fish Tacos',
-        description: 'Grilled fish wrapped in a soft tortilla with slaw and salsa.',
-        procedure: 'Grill fish, assemble tacos, and serve.',
-        allergies: ['fish'],
-        spiceLevel: 'Low'
+     name: 'Spicy Sriracha Tofu Rice Bowl',
+        description: 'A quick a fast easy to make meatless-meal',
+        procedure: {
+            ingredients: [
+                "14 oz extra firm tofu, drained",
+                "1 tablespoon plus 2 teaspoons gluten-free Tamari, (or soy sauce) divided",
+                "4 teaspoons sriracha, divided",
+                "1 tablespoon sesame oil, divided",
+                "1 medium scallion, chopped, white and green parts separated",
+                "2 teaspoons Thai sweet chili sauce",
+                "1 cups cooked brown rice",
+                "1/2 cup warmed shelled edamame",
+                "1/2 teaspoon multi color sesame seeds"
+            ],
+            steps: [
+              	"Place the tofu block between some paper towels and press to absorb extra water.",
+                "Repeat until the tofu feels dry and no more water comes out. Slice across in half lengthwise and then into cubes.",
+                "In a large bowl, stir together 1 tablespoon of the tamari, 2 teaspoons of the sriracha, 2 teaspoons of sesame oil, and the scallion whites. Add the tofu and let sit for 10 minutes.",
+                "Spray the air fryer basket with oil.",
+                "Transfer the tofu to the air fryer in a single layer and air fry at 370°F for about 10 to 12 minutes, shaking the basket halfway until slightly golden and crisp on the outside and tender on the inside.",
+                "Bake in a preheated oven at 400°F for about 25 minutes, turning halfway.",
+                "While it cooks, add the remaining 2 teaspoons of sriracha, 2 teaspoons of tamari, 1 teaspoon of sesame oil, and sweet chili sauce to the bowl.",
+                "When the tofu is ready, toss it with the sauce to coat until evenly covered. Serve immediately over rice with edamame, sesame seeds, and scallion greens."
+            ]
+        },
+        allergies: ['Dairy', 'Nut', 'Gluten','Soy'],
+        spiceLevel: 'High',
+        dietaryPreference: "Veg",
+        Calories: "453",
+        Time: "30 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'French Onion Soup',
-        description: 'Rich beef broth with caramelized onions, topped with melted cheese.',
-        procedure: 'Cook onions, add broth, and top with cheese and bread.',
-        allergies: ['dairy', 'gluten'],
-        spiceLevel: 'Low'
+     name: 'Macaroni Salad',
+        description: 'This is the BEST Macaroni Salad made with tomatoes and black olives, and a simple creamy mayo-based dressing, a perfect summer side dish',
+        procedure: {
+            ingredients: [
+                "6 oz uncooked elbows, wheat or gluten-free",
+                "2 ripe medium tomatoes, diced",
+                "1/4 red onion, or white, finely chopped",
+                "1/4 cup Hellmann's light mayonnaise",
+                "1 tbsp white vinegar",
+                "1/4 teaspoon garlic powder",
+                "1 tsp dried oregano",
+                "2.5 oz can sliced black olives",
+                "kosher salt and black pepper, to taste"
+            ],
+            steps: [
+              	"Bring a large pot of generously salted water to a boil. Add the macaroni and cook according to package directions.",
+								"Drain and rinse under cold water.",
+                "Meanwhile, in a large bowl, combine mayonnaise, vinegar, tomatoes (and all of the juice from the tomatoes), olives, onion, garlic powder, oregano, salt, and pepper. Mix well.",
+                "When the pasta is done, mix it in and serve right away at room temperature or chilled."
+            ]
+        },
+        allergies: ['Dairy', 'Nut', 'Gluten','Egg', "Tomato"],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        Calories: "125",
+        Time: "25 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
-        name: 'Beef Bourguignon',
-        description: 'French stew with beef, red wine, mushrooms, and vegetables.',
-        procedure: 'Slow-cook beef in wine and vegetables, and serve.',
-        allergies: [],
-        spiceLevel: 'Low'
+     name: 'Roasted Mushrooms with Parmesan',
+        description: 'A toasted and cheesy dish for when time seems ',
+        procedure: {
+            ingredients: [
+                "Olive oil spray",
+                "1 ½ pounds sliced mixed mushrooms, I used white beech, crimini, shiitakes",
+                "2 tablespoons extra virgin olive oil",
+                "½ teaspoon kosher salt",
+                "black pepper, freshly ground, to taste",
+                "1 tablespoon thyme, fresh chopped, plus more for garnish",
+                "¼ cup Parmesan cheese, freshly grated",
+                "Drizzle of good quality balsamic vinegar"
+            ],
+            steps: [
+              	"Preheat oven to 400 degrees F. Spray 2 sheet pans with olive oil.",
+                "Divide mushrooms evenly among the 2 prepared sheet pans.",
+                "Drizzle each with 1 tablespoon of olive oil, ¼ teaspoon kosher salt, pepper, and half the fresh thyme, then toss to evenly coat. Spread the mushrooms out in an even layer.",
+                "Roast mushrooms for 20 minutes, mixing and rotating pans halfway through cooking.",
+                "Top with Parmesan, a drizzle of balsamic vinegar, and garnish with more fresh thyme."
+
+            ]
+        },
+        allergies: ['Dairy', 'Nut', 'Gluten'],
+        spiceLevel: 'Low',
+        dietaryPreference: "Veg",
+        Calories: "120",
+        Time: "30 mins",
+        imgLink: '',
+        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
-    {
-        name: 'Katsu Curry',
-        description: 'Japanese fried chicken cutlet served with a rich curry sauce.',
-        procedure: 'Fry chicken, make curry sauce, and serve with rice.',
-        allergies: ['gluten'],
-        spiceLevel: 'Medium'
-    },
-    {
-        name: 'Clam Chowder',
-        description: 'Creamy soup with clams, potatoes, and bacon.',
-        procedure: 'Cook clams, add to soup, and serve with bread.',
-        allergies: ['shellfish', 'dairy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Teriyaki Chicken',
-        description: 'Grilled chicken glazed with sweet teriyaki sauce.',
-        procedure: 'Grill chicken, glaze with sauce, and serve with rice.',
-        allergies: ['Soy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Cheeseburger',
-        description: 'Juicy beef patty with melted cheese in a toasted bun.',
-        procedure: 'Grill patty, assemble burger, and serve.',
-        allergies: ['gluten', 'dairy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Peking Duck',
-        description: 'Crispy roast duck served with pancakes and hoisin sauce.',
-        procedure: 'Roast duck, serve with pancakes and sauce.',
-        allergies: ['gluten', 'Soy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Egg Fried Rice',
-        description: 'Stir-fried rice with scrambled eggs and vegetables.',
-        procedure: 'Fry rice with eggs and vegetables, and serve.',
-        allergies: ['Soy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Chicken Parmesan',
-        description: 'Breaded chicken topped with marinara and melted cheese.',
-        procedure: 'Fry chicken, add sauce and cheese, and bake.',
-        allergies: ['gluten', 'dairy'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Fajitas',
-        description: 'Grilled steak or chicken with peppers and onions, served with tortillas.',
-        procedure: 'Grill meat and vegetables, assemble with tortillas, and serve.',
-        allergies: ['gluten'],
-        spiceLevel: 'Medium'
-    },
-    {
-        name: 'Ratatouille',
-        description: 'French vegetable stew with zucchini, eggplant, and tomatoes.',
-        procedure: 'Layer vegetables, bake, and serve.',
-        allergies: [],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Lobster Roll',
-        description: 'Fresh lobster meat in a buttery, toasted bun.',
-        procedure: 'Cook lobster, assemble roll, and serve.',
-        allergies: ['shellfish'],
-        spiceLevel: 'Low'
-    },
-    {
-        name: 'Beetroot Salad',
-        description: 'Fresh beets with goat cheese, walnuts, and a balsamic glaze.',
-        procedure: 'Roast beets, assemble salad, and drizzle with glaze.',
-        allergies: ['dairy', 'nuts'],
-        spiceLevel: 'Low'
-    }
 ];
 
 export default dishes;
