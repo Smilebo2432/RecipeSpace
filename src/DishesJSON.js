@@ -519,9 +519,9 @@ const dishes = [
         allergies: ['gluten', 'dairy'],
         spiceLevel: 'Medium',
         Calories: "450",
-		Time: "20 mins",
+	Time: "20 mins",
         dietaryPreference: "Non-Veg",
-        imgLink: '',
+        imgLink: '/imgs/Chicken_Quesadillas(1).jpg',
         credits: 'https://www.simplyrecipes.com/'
         
         
