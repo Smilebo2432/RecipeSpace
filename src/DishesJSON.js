@@ -241,7 +241,7 @@ const dishes = [
         SDP: "vegan", 
         Calories: "300",
         Time: "30 mins",
-        imgLink: 'https://i.ibb.co/8N6v0Mn/Vegetarian-Tacos.jpg',
+        imgLink: 'https://i.ibb.co/PFWZ7xc/Veg-taco-resized.jpg',
         credits: 'https://www.twopeasandtheirpod.com/easy-vegetarian-tacos/'
     },
     {
