@@ -27,7 +27,7 @@ const SignIn = () => {
         Service().signIn(user.username,user.password).then((data)=> {
             if(data?.success){
                 localStorage.setItem("user",data.user_id);
-                navigate("/");
+                navigate("/about");
                 setIsLoading(false);
             }
             else{
@@ -64,11 +64,12 @@ const SignIn = () => {
                     </div>
                 </div>
                 <div className='loginBt'>
-                    <div className='ogout'>
-                        <button className='btn' onClick={singIn}>Login</button>
-                    </div>
+                    
                     <div className='ogout'>
                         <button className='btn' onClick={()=>navigate('/signup')}>SignUp</button>
+                    </div>
+                    <div className='ogout'>
+                        <button className='btn' onClick={singIn}>Login</button>
                     </div>
                 </div>
             </div>

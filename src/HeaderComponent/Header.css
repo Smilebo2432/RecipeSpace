@@ -2,10 +2,12 @@
     display: flex;
     column-gap: 20px;
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    align-items: center;
 }
-
+.header-leftpane{
+    padding: 5px;
+}
 .navigationButton {
-    padding: 0px 5px;
     cursor: pointer;
     flex: 1; /* Allow buttons to grow */
     width: 120px; /* Set a minimum width for buttons */
@@ -23,10 +25,15 @@
 }
 
 .headerLayout {
-    padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     border-bottom: 1px solid #424242;
     background: linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
+}
+.homeLogo1{
+    height:60px;
+    width:170px;
+    border-radius: 10px;
+    margin:3px;
 }
 
 /* Media query for mobile devices */

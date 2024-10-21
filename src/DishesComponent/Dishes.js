@@ -80,12 +80,15 @@ const Dishes = () => {
                 if (data.success) {
                     showToast(`${dishName} successfully ${isFavorite ? 'removed from' : 'added to'} favorites`);
                 }
+                else{
+                    showToast(`${dishName} cannot be added to favorites, You have to login!`,"error");
+                }
             })
             .catch((err) => {
                 showToast(`Error occurred while ${isFavorite ? 'removing' : 'adding'} dish to favorites: ${err}`);
             });
-    
-        setHearts(updatedHearts);
+        if(user_id)
+            setHearts(updatedHearts);
     };
     
 
@@ -116,6 +119,7 @@ const Dishes = () => {
                 <div className="card-background" key={idx} >
                     <div className='row'>
                         <div className='col-md-4'>
+                            
                             <img className='card-image' src={`${process.env.PUBLIC_URL}${dishesFiltered[idx].imgLink}`} alt={dishesFiltered[idx].name} />
                         </div>
                         <div className='col-md-8' >
@@ -148,7 +152,7 @@ const Dishes = () => {
                     </div>
                 </div>
             ))}
-            <ToastContainer />
+            <ToastContainer autoClose={2000}/>
         </div>
     );
 }

@@ -6,7 +6,7 @@
 }
 .commonBackground{
     padding:20px;
-    height: 88vh;
+    height: 70vh;
     overflow: auto;
     width:100%;
 }
@@ -22,7 +22,7 @@
     border:none;
     padding:10px;
     border-radius: 10px;
-    width:150px;
+    width:auto;
 }
 .search-recipes:hover{
     background:linear-gradient(to right, rgba(182, 244, 146, 0.95), rgba(51, 139, 147, 0.95));

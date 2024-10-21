@@ -1,12 +1,12 @@
 .DishesLayout {
     overflow-y: auto;
-    max-height: 88vh;
+    max-height: 87vh;
     width: 100%;
 }
 
 .card-background {
-    padding: 10px 30px;
-    margin: 20px 40px;
+    padding: 10px 20px;
+    margin: 20px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background: linear-gradient(to right, rgba(182, 244, 146, 0.85), rgba(51, 139, 147, 0.85));
     border-radius: 10px;
@@ -65,8 +65,8 @@
 
 .card-image {
     margin: 10px 20px;
-    object-fit: contain;
-    width: 100%;
+    object-fit: fill;
+    width: 90%;
     height: 160px;
     border-radius: 10px;
     display: block;

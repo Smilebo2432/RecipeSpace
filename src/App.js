@@ -11,6 +11,7 @@ import SignUp from './SignUpComponent/SignUp';
 import Favorites from './FavoritesComponent/Favorites';
 import Error from './ErrorComponent/Error';
 import Recipe from './RecipeComponent/Recipe';
+import About from './AboutComponent/About';
 function App() {
   return (
     <BrowserRouter>
@@ -25,27 +26,25 @@ const AppContent = () => {
   return (
     <div className='AppLayout'>
       <div className='AppHeader'>
-        {(location.pathname !== '/signin' && location.pathname!=='/signup') && <Header />} 
-      </div>
+        {location.pathname !=='/home' && (<Header />)}
+      </div> 
 
       <Routes>
-        {user_id ? ( 
-          <>
-            <Route path='/' element={<Home />} />
-            <Route path='/home' element={<Navigate to='/' />} />
-            <Route path='/filters' element={<Filters />} />
-            <Route path='/myprofile' element={<MyProfile />} />
-            <Route path='/dishes' element={<Dishes />} />
-            <Route path='/favorites' element={<Favorites/>}/>
-            <Route path='/recipe' element={<Recipe/>}/>
-          </>
-        ) : (
-          <Route path='*' element={<Navigate to='/signin' />} /> 
-        )}
+        {user_id && (<>
+        <Route path='/myprofile' element={<MyProfile />} />
+        <Route path='/favorites' element={<Favorites/>}/>
+        </>)}
         <Route path='/somethingwentwrong' element={<Error/>}/>
+        <Route path='/filters' element={<Filters />} />
         
+        <Route path='/dishes' element={<Dishes />} />
+        
+        <Route path='/recipe' element={<Recipe/>}/>
         <Route path='/signin' element={<SignIn />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='*' element={<Navigate to='/home'/>}/>
+        <Route path='/about' element={<About/>} />
       </Routes>
     </div>
   );
