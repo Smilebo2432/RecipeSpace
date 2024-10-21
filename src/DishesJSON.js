@@ -43,7 +43,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: '450',
         Time: '45',
-        imgLink: '/imgs/chicken_cassadia.jpg',
+        imgLink: '/imgs/SpicyChickenWIngs (1).jpeg',
         credits: 'https://bakerbynature.com/sweet-spicy-sriracha-baked-chicken-wings/'
     },
     {
@@ -73,7 +73,7 @@ const dishes = [
         allergies: ['Dairy'],
         spiceLevel: 'High',
         dietaryPreference: "Veg",
-        imgLink: '',
+        imgLink: '/imgs/PaneerTM (1).jpeg',
         Calories: "350",
         Time: "30 mins",
         credits: 'https://www.cookwithmanali.com/paneer-tikka/'
@@ -101,7 +101,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "250",
         Time: "10 mins",
-        imgLink: 'https://iili.io/236XVGR.jpg',
+        imgLink: '/imgs/Avocado_Toast_resized (1).jpg',
         credits: 'https://www.simplyrecipes.com/recipes/avocado_toast/'
     },
     {
@@ -134,7 +134,7 @@ const dishes = [
         allergies: ['Soy', 'Fish sauce'],
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
-        imgLink: '',
+        imgLink: '/imgs/Pho (1).jpeg',
         Calories: "500",
         Time: "3 Hrs",
         credits: 'https://www.vietworldkitchen.com/'
@@ -167,7 +167,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "350",
         Time: "1 Hr",
-        imgLink: '',
+        imgLink: '/imgs/ChiliCC(1).jpeg',
         credits: 'https://www.foodnetwork.com/'
     },
     {
@@ -207,7 +207,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "350",
         Time: "40 mins",
-        imgLink: '',
+        imgLink: '/imgs/MushroomR (1).jpeg',
         credits: 'https://www.bonappetit.com/'
     },
     {
@@ -241,7 +241,7 @@ const dishes = [
         SDP: "vegan", 
         Calories: "300",
         Time: "30 mins",
-        imgLink: 'https://i.ibb.co/8N6v0Mn/Vegetarian-Tacos.jpg',
+        imgLink: '/imgs/Veg_taco_resized (1).jpg',
         credits: 'https://www.twopeasandtheirpod.com/easy-vegetarian-tacos/'
     },
     {
@@ -272,7 +272,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "200",
 		Time: "30 mins",
-        imgLink: 'https://i.ibb.co/svGmDPM/Pepperoni-Pizza-Rolls.jpg',
+        imgLink: '/imgs/PepperoniPR (1).jpeg',
         credits: 'www.thepioneerwoman.com'
     },
     {
@@ -297,7 +297,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "300",
 		Time: "15 mins",
-        imgLink: 'https://i.ibb.co/GxbVhP7/Air-Fryer-Hot-Dogs.jpg',
+        imgLink: '/imgs/HotdogAF (1).jpeg',
         credits: 'www.thepioneerwoman.com'
     },
     {
@@ -340,7 +340,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "600",
 		Time: "1.5 hours",
-        imgLink: 'https://i.ibb.co/V20pCLf/Chicken-Biryani.jpg',
+        imgLink: '/imgs/Biryani (1).jpeg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
@@ -372,7 +372,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "400",
 		Time: "35 mins",
-        imgLink: '',
+        imgLink: '/imgs/BeefSF (1).jpeg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
@@ -416,7 +416,7 @@ const dishes = [
         SDP: "Vegan",
         Calories: "500",
 		Time: "35 mins",
-        imgLink: 'https://i.ibb.co/qCR4qYf/Falafel-Wrap.jpg',
+        imgLink: '/imgs/Falafel (1).jpeg',
         credits: 'https://www.feastingathome.com/falafel-recipe/'
     },
     {
@@ -451,7 +451,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "350",
 		Time: "2 hours",
-        imgLink: 'https://drive.google.com/file/d/1TZ0Tzk_7PcpwgKWpys7aZu3T1KcMpQzB/view?usp=sharing',
+        imgLink: '/imgs/SushiP (1).jpeg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
@@ -484,7 +484,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "500",
 		Time: "1 hours",
-        imgLink: '/imgs/chicken_cassadia.jpeg',
+        imgLink: '/imgs/ButterChicken (1).jpeg',
         credits: 'https://www.indianhealthyrecipes.com/chicken-biryani-recipe/'
     },
     {
@@ -521,7 +521,7 @@ const dishes = [
         Calories: "450",
 		Time: "20 mins",
         dietaryPreference: "Non-Veg",
-        imgLink: '',
+        imgLink: '/imgs/chicken_cassadia.jpg',
         credits: 'https://www.simplyrecipes.com/'
         
         
@@ -558,7 +558,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "350",
 		Time: "40 mins",
-        imgLink: '',
+        imgLink: '/imgs/MacandCheese (1).jpeg',
         credits: 'https://www.eatingwell.com/'
     },
     {
@@ -587,7 +587,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "200",
 		Time: "30",
-        imgLink: '',
+        imgLink: '/imgs/CreamAS (1).jpeg',
         credits: 'https://www.simplyrecipes.com/'
     },
     {
@@ -620,7 +620,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "309",
         Time: "20 mins",
-        imgLink: '',
+        imgLink: '/imgs/JuicyL (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -654,51 +654,10 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "81",
         Time: "52 mins",
-        imgLink: '',
+        imgLink: '/imgs/MummyHD (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
-    {
-     name: 'Mummy Hot Dogs',
-        description: 'A fun and goofy take on an icon meal',
-        procedure: {
-            ingredients: [
-                "1 cup unbleached all-purpose flour, whole wheat or gluten-free mix, plus more for dusting (5 ounces)",
-                "2 teaspoons baking powder",
-                "3/4 tsp kosher salt",
-                "1 cup non-fat plain Greek yogurt",
-                "1 egg white, beaten (whole egg works fine too)",
-                "8 turkey hot dogs, such as Applegate Naturals, halved crosswise",
-                "1 package candy eyes",
-                "mustard or ketchup, optional for serving"
-                
-                
-                
-                
-            ],
-            steps: [
-                "Preheat oven to 400 degrees F",
-                "Line a baking sheet with a silicon baking mat or parchment paper. If using parchment paper, spray with oil to avoid sticking.",
-                "In a medium bowl, combine the flour, baking powder, and salt and whisk well. Add the yogurt and mix with a fork or spatula until well combined; it will look like small crumbles.",
-                "Lightly dust flour on a work surface and remove dough from the bowl. Knead the dough a few times until smooth and tacky but not sticky, about 15 turns (it should not leave dough on your hand when you pull away).",
-                "Dust your work surface and a rolling pin with more flour.",
-                "Roll the dough out thin into a rectangle. Slice the dough into 1/4-inch thick slices.",
-                "Wrap the dough around each hot dog half, leaving room for the eyes, and place on the prepared baking sheet. Repeat with remaining hot dogs and dough.",
-                "Brush each with the egg wash and bake in the oven for 12 minutes.",
-                "Using mustard or ketchup, “glue” the eyes on. Allow to cool for 10 minutes and serve."
-                
-                
-                
-                
-            ]
-        },
-        allergies: ['Wheat', 'Gluten', 'Dairy', 'Soy', 'Egg', 'Pork/Beef'],
-        spiceLevel: 'Low',
-        dietaryPreference: "Non-Veg",
-        Calories: "81",
-        Time: "52 mins",
-        imgLink: '',
-        credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
-    },
+
     {
      name: 'Loaded Baked Potato Soup',
         description: 'A fun and familiar test with comforting tastes.',
@@ -727,7 +686,7 @@ const dishes = [
         dietaryPreference: "Non-Veg",
         Calories: "200",
         Time: "20 mins",
-        imgLink: '',
+        imgLink: '/imgs/LoadedBPS (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -762,7 +721,7 @@ const dishes = [
         SDP: "Vegan",
         Calories: "346",
         Time: "40 mins",
-        imgLink: '',
+        imgLink: '/imgs/GreenCN (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -809,7 +768,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "444",
         Time: "50 mins",
-        imgLink: '',
+        imgLink: '/imgs/TofuT (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -843,7 +802,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "453",
         Time: "30 mins",
-        imgLink: '',
+        imgLink: '/imgs/SpicySB (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -873,7 +832,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "125",
         Time: "25 mins",
-        imgLink: '',
+        imgLink: '/imgs/MacaroniS (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
     {
@@ -904,7 +863,7 @@ const dishes = [
         dietaryPreference: "Veg",
         Calories: "120",
         Time: "30 mins",
-        imgLink: '',
+        imgLink: '/imgs/RoastedMP (1).jpeg',
         credits: 'https://www.skinnytaste.com/turkey-burgers-stuffed-with-cheese/'
     },
 ];

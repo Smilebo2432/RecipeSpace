@@ -57,7 +57,7 @@ const Favorites = () => {
                     favoriteDishes.map((item) => (
                         <div className='col-md-4' key={item.name}>
                             <div className='favoriteDishCard'>
-                                <img src={item.imgLink} alt={item.name} className='card-image' onClick={()=>{navigate('/recipe',{state:item})}}/>
+                                <img src={`${process.env.PUBLIC_URL}${item.imgLink}`} alt={item.name} className='card-image' onClick={()=>{navigate('/recipe',{state:item})}}/>
                                 <h3>{item.name}</h3>
                                 <p>{item.dietaryPreference}</p>
                                 <FontAwesomeIcon className="fa-trash" icon={faTrash} onClick={()=>removeFavorite(item)}/>

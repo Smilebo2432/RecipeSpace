@@ -12,7 +12,7 @@ const Recipe = () => {
             <FontAwesomeIcon icon={faArrowLeft} className="fa-arrow-left" onClick={()=>{navigate(-1)}}/>
             <div className="recipe-item">
                 <div className="recipe-image-div">
-                    <img src={state?.imgLink} alt={state?.name} className='recipe-image'/>
+                    <img src={`${process.env.PUBLIC_URL}${state?.imgLink}`} alt={state?.name} className='recipe-image'/>
                     <div className="recipe-image-details">
                         <h3>{state?.name}</h3>
                         <h5> {state?.dietaryPreference}</h5>

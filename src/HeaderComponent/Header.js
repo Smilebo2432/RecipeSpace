@@ -31,7 +31,7 @@ const Header = () => {
             {isLoading && (<div className="loader-container"> <div className="loader"> </div></div>)}
             <div className = "row">
                 <div className="col-md-2 header-leftpane">
-                    Header
+                    THE KID'S TABLE
                 </div>
                 <div className="col-md-10 header-rightpane">
                     { navigations.map((item)=>(
