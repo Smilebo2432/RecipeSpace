@@ -38,7 +38,7 @@ const dishes = [
                 
             ]
         },
-        allergies: ['gluten', 'Soy'],
+        allergies: ['Gluten', 'Soy'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
         Calories: '450',
@@ -96,7 +96,7 @@ const dishes = [
                 "Sprinkle red chili flakes on top and serve immediately."
             ]
         },
-        allergies: ['gluten'],
+        allergies: ['Gluten'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         Calories: "250",
@@ -131,7 +131,7 @@ const dishes = [
                 "Serve with fresh herbs, lime wedges, and bean sprouts."
             ]
         },
-        allergies: ['Soy', 'Fish sauce'],
+        allergies: ['Soy', 'Fish sauce', 'Beef'],
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
         imgLink: '/imgs/Pho (1).jpeg',
@@ -162,7 +162,7 @@ const dishes = [
                 "Season with salt and pepper, and serve with rice or cornbread."
             ]
         },
-        allergies: [],
+        allergies: ['Beef', 'Tomato', 'Garlic'],
         spiceLevel: 'High',
         dietaryPreference: "Non-Veg",
         Calories: "350",
@@ -235,7 +235,7 @@ const dishes = [
                 
             ]
         },
-        allergies: ['gluten'],
+        allergies: ['Gluten'],
         spiceLevel: 'Medium',
         dietaryPreference: "Veg",
         SDP: "vegan", 
@@ -292,7 +292,7 @@ const dishes = [
                 "Serve with your favorite toppings."
             ]
         },
-        allergies: ['Wheat', 'Dairy', 'Soy', 'Sulfites or Nitrates', 'Mustard or Ketchup'],
+        allergies: ['Wheat', 'Dairy', 'Soy', 'Mustard','Ketchup','Pork'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
         Calories: "300",
@@ -367,7 +367,7 @@ const dishes = [
                 
             ]
         },
-        allergies: ['Soy'],
+        allergies: ['Soy','Beef','Garlic'],
         spiceLevel: 'Medium',
         dietaryPreference: "Non-Veg",
         Calories: "400",
@@ -410,7 +410,7 @@ const dishes = [
                 
             ]
         },
-        allergies: ['gluten', 'garlic'],
+        allergies: ['Gluten', 'Garlic'],
         spiceLevel: 'Low',
         dietaryPreference: "Vegan",
         SDP: "Vegan",
@@ -446,7 +446,7 @@ const dishes = [
                 "Roll the sushi tightly, slice, and serve with Soy sauce, wasabi, and ginger."
             ]
         },
-        allergies: ['fish', 'Soy'],
+        allergies: ['Fish', 'Soy', 'Seafood'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
         Calories: "350",
@@ -516,7 +516,7 @@ const dishes = [
                 
             ]
         },
-        allergies: ['gluten', 'Dairy'],
+        allergies: ['Gluten', 'Dairy'],
         spiceLevel: 'Medium',
         Calories: "450",
 		Time: "20 mins",
@@ -553,7 +553,7 @@ const dishes = [
                 "Serve hot."
             ]
         },
-        allergies: ['gluten', 'Dairy'],
+        allergies: ['Gluten', 'Dairy'],
         spiceLevel: 'Low',
         dietaryPreference: "Veg",
         Calories: "350",
@@ -649,7 +649,7 @@ const dishes = [
                 "Using mustard or ketchup, “glue” the eyes on. Allow to cool for 10 minutes and serve."
             ]
         },
-        allergies: ['Wheat', 'Gluten', 'Dairy', 'Soy', 'Egg', 'Pork/Beef'],
+        allergies: ['Wheat', 'Gluten', 'Dairy', 'Soy', 'Egg', 'Pork'],
         spiceLevel: 'Low',
         dietaryPreference: "Non-Veg",
         Calories: "81",
