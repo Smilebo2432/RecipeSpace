@@ -9,7 +9,7 @@ const Home = () => {
             </div>
             <div className='homeContent'>
                 <h2 style={{textAlign:'center'}}>Ready to take the stress out of mealtime?</h2>
-                <h4 style={{textAlign:'center'}}>The Kid's Table helps you quickly find tasty, nutritious, kid-approved meals that match your and your child's needs</h4>
+                <h3 style={{textAlign:'center'}}>The Kid's Table helps you quickly find tasty, nutritious, kid-approved meals that match your and your child's needs</h3>
             </div>
             <button className='search-recipes' onClick={()=>navigate('/about')}> VISIT US TO KNOW MORE</button>
         </div>
